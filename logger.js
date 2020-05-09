@@ -5,5 +5,7 @@ function log(message){
     console.log(message)
 }
 
+//just export the normal log
 module.exports.log = log;
+//give it a new name
 module.exports.endPoint = url;

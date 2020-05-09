@@ -1,2 +1,7 @@
+//import
+var logger= require('./logger')
 
-console.log(module)
+
+console.log(logger)
+
+logger.log("tsm")
